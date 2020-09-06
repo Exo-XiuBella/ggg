@@ -1,0 +1,359 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri', serif;
+}
+
+body h3 , body small
+{
+    font-family: 'Kaushan Script', cursive;
+
+}
+/*****************************************************************/
+
+.header1
+{
+    background-color: rgba(94, 60, 67, 0.979);
+    z-index: 1;     
+}
+header .mainhead
+{
+    display: flex;
+    padding: 20px 0 20px 0; 
+}
+
+header .mainhead h1
+{
+    color: #FFDFDC;
+    text-shadow: 1px -1px 14px wheat;
+    font-size: 85px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 3%;
+    
+}
+
+header .mainhead img
+{
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 3px 49px -8px rgb(236, 132, 132);
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-top: 34px;
+
+}
+
+header .mainhead nav
+{
+    margin-left: -7%;
+    margin-top: 40px;
+}
+
+header .mainhead nav ul
+{
+    display: flex;
+    margin-left: 404px;
+    list-style-type: none; 
+}
+
+header .mainhead nav ul li a
+{
+    text-decoration: none;
+    color: #FFDFDC;
+    text-shadow: 1px -1px 14px wheat;
+    margin-left: 36px;
+    font-size:35px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+header .mainhead nav ul li a:hover
+{
+    color: #eea69f;
+}
+
+/************************************************************************/
+.section1
+{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.section1 .time h1
+{
+    font-family: 'Amiri', serif;
+    font-size: 70px;
+    color: rgb(10, 10, 10);
+    text-shadow: 10px 10px 10px rgb(185, 185, 185);
+}
+
+.section1 .time h2
+{
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgb(196, 196, 196);
+}
+
+/******************************************/
+
+
+table 
+{
+   margin: 10% 0 20% 0;
+   width: 400px;
+   margin-left: 10%;
+    color: #eeeff0;  
+}
+
+
+table , th , td
+{
+    border: 10px solid rgb(207, 176, 107);
+    padding: 20px;
+    font-size: 40px;
+    text-align: center; 
+    margin-left: 14%;
+}
+table tr.color
+{
+    background-color: black;
+}
+
+table tr
+{
+    background-color: cornsilk;
+    color: rgb(212, 37, 66);
+}
+.line
+{
+    width: 128px;
+    height: 3px;
+    background: darkslategrey;
+    margin: 25px 0 20px 0;
+}
+
+.co
+{
+    background-color:black ;
+}
+
+#color
+{
+    background-color: rgb(177, 100, 107);
+    color: #ffffff;
+}
+
+/**************************************************/
+footer
+{
+    margin-top: 30%;
+    background-color: rgba(145, 140, 140, 0.685);
+    color: wheat;
+    text-align: center;
+    padding: 50px;
+    background-image: url(../imgs/cover.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+footer .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+footer .flex
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    position: relative;
+}
+
+
+footer h1
+{
+    font-size: 80px;
+    position: relative;
+    box-shadow: 9px 1px 23px wheat;
+    display: inline;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+footer .leftinfo span a:hover , footer .leftinfo span a i:hover
+{
+    color: rgb(192, 136, 63);
+}
+footer .leftinfo span a i , footer .leftinfo span a
+{
+    font-size: 70px;
+    text-decoration: none;
+    color: wheat;
+   margin-left: 30px; 
+}
+
+
+footer .rightinfo strong
+{
+    font-size: 60px;
+}
+
+
+footer .rightinfo h2
+{
+    font-size: 70px
+}
+
+footer .slash
+{
+    width: 2px;
+    height: 92px;
+    margin-top: 11px;
+    background: wheat;
+}
+/*********************************************/
+
+@media (max-width:600px)
+{
+    
+    header .mainhead
+    {
+        display: inline-block;
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    
+    header .mainhead h1
+    {
+        margin-left: 3%;
+       margin-top: 5px;
+
+    }
+    
+    header .mainhead img
+    {
+        
+        margin-left: 41%;
+        margin-top: 0%;
+    }
+    
+    
+    header .mainhead nav
+    {
+        margin-left: -9%;
+        margin-top: 10%;
+    }
+    
+    header .mainhead nav ul
+    {
+        display: flex;
+        margin-left: 61px;
+    }
+    
+    header .mainhead nav ul li a
+    {
+        margin-left: 28px;
+        font-size: 28px;
+    }
+    /****************************/
+
+    .section2 .class
+    {
+        margin: 20% 0 -12% 0;
+    }
+    table 
+    { 
+      transform: rotate(-90deg);  
+    }
+    
+    
+    table , th , td
+    {
+        
+        padding: 3px;
+        font-size:22px;
+        margin-left: -1%;
+    }
+    
+    .line
+    {
+        width: 38px;
+        height: 3px;
+        background: darkslategrey;
+        margin: 13px 0 11px 0;
+        margin-left: 29px;
+
+    }
+
+
+    /********************************/
+    footer .flex
+{
+    display: block;
+    justify-content: space-around;
+}
+
+footer .leftinfo span a i , footer .leftinfo span a
+{
+   margin-top: 10%;
+}
+
+footer .slash
+{
+  width: 278px;
+  height: 7px;
+  margin:38px 0 38px 12%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
