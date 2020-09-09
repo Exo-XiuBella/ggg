@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
 
         <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
@@ -15,7 +17,9 @@
 
     </head>
     <body>
-        
+        <main>
+           
+            
         <header class="header1">
             <div class="mainhead">
                 <h1 class="wow fadeInUpBig" data-wow-duration="1s">captain fatin</h1>
@@ -38,7 +42,21 @@
                     </ul>
                 </nav>
             </div>
+            <div class="header3">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">home</a>
+                    <a href="#">about us</a>
+                    <a href="index2.html">class</a>
+                    <a href="#">Contact us</a>
+                  </div>
+                  
+                        <div id="main">
+                             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+                       </div>
+            </div>
         </header>
+        
         <header class="header2-imgs-strap">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -70,6 +88,8 @@
                 </a>
               </div>
         </header>
+        <!-------------------->
+        
         <!-- Beauty -->
 
     <section class="beauty1">
@@ -90,19 +110,19 @@
                 </div>
 
                 <ul class="items wow slideInright" data-wow-delay=".2s">
-                    <li class="item-img img1">
+                    <li class="item-img img1" id="imgs">
                         <div class="pinkoverlay1"></div>
                     </li>
-                    <li class="item-img img2">
+                    <li class="item-img img2" id="imgs"></li>>
                         <div class="pinkoverlay1"></div>
                     </li>
-                    <li class="item-img img3">
+                    <li class="item-img img3" id="imgs"></li>>
                         <div class="pinkoverlay1"></div>
                     </li>
-                    <li class="item-img img4">
+                    <li class="item-img img4" id="imgs"></li>>
                         <div class="pinkoverlay1"></div>
                     </li>
-                    <li class="item-img img5">
+                    <li class="item-img img5" id="imgs"></li>>
                         <div class="pinkoverlay1"></div>
                     </li>
                 </ul>
@@ -320,39 +340,8 @@
     </footer>
     
 
-         
-    
-    
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+        </main>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -360,21 +349,18 @@
         <script>
             new WOW().init();
         </script>
-
- 
+        <script src="js/script.js"></script>
     </body>
 
 
-
-
-
-
+  
 
 
 
 
 
 </html>
+
 
 
 
