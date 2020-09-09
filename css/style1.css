@@ -10,6 +10,54 @@ body h3 , body small
     font-family: 'Kaushan Script', cursive;
 }
 
+
+.header3
+{
+    position: relative;
+    top: -25px;
+    display: none;
+    z-index: 9999999999;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+
 .header1
 {
     background-color: rgba(94, 60, 67, 0.979);
@@ -27,7 +75,7 @@ header .mainhead h1
     text-shadow: 1px -1px 14px wheat;
     font-size: 85px;
     font-family: 'Kaushan Script', cursive;
-    margin-left: 3%;
+    margin-left: 3% ;
     
 }
 
@@ -445,8 +493,6 @@ header .mainhead nav ul li a:hover
     height: 319px;
     border-radius: 137px 0 137px 137px;
     box-shadow: 14px 6px 50px 6px  rgba(245, 64, 103, 0.692);
-    /*border-radius: 50%;*/
-    /*border: 15px solid rgba(129, 99, 2, 0.253);*/
 
 }
 
@@ -559,146 +605,237 @@ footer .slash
 /********************************************************************/
 
 /* media*/
-/* For mobile phones: */
 
-@media (max-width:600px)
+
+@media screen and (max-width:1445px)
 {
-    
-    header .mainhead
-    {
-        display: inline-block;
-        margin-left: 0;
-        padding: 0;
-        width: 100%;
-        
-    }
-    
-    header .mainhead h1
-    {
-        margin-left: 3%;
-       margin-top: 5px;
+      
+header .mainhead
+{
+    display: block;
+    padding: 0; 
+}
 
-    }
+      
+header .mainhead h1
+{
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 222px;   
+}
+
+header .mainhead img
+{
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 3px 49px -8px rgb(236, 132, 132);
+    border-radius: 50%;
+    margin-left: 62%;
+    margin-top: -76px;
+}
+
+header .mainhead nav ul {
     
-    header .mainhead img
-    {
-        width: 60px;
-        height: 60px;
-        margin-left: 41%;
-        margin-top: 0%;
-    }
+    margin-bottom: 0%;
+}
+
+.beauty1 .right .hds h1 {
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    word-spacing: 1px;
+    font-weight: 400;
+    margin-left: -82px;
+    font-size: 31px;
+}
+.beauty1 .right h2 {
+    margin-left: -8%;
+}
+
+.beauty1 .right .hds .rowline2 {
+    width: 10%;
+    height: 2px;
+    margin-left: 148px;
+    margin-top: -39px;
+}
+.header3
+{
+    display: none;
+}
+
+
+}
+/***********************/
+@media screen and (max-width:1150px)
+{
+      
+header .mainhead h1
+{
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 245px !important;   
+}
+
+header .mainhead img
+{
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 3px 49px -8px rgb(236, 132, 132);
+    border-radius: 50%;
+    margin-left: 62%;
+    margin-top: -76px;
+}
+
+header .mainhead nav
+{
+    margin-left: -33% !important;
+}
+header .mainhead nav ul {
     
-    header .mainhead nav
-    {
-        margin-left: -9%;
-        margin-top: 10%;
-    }
+    margin-bottom: 0%;
+}
+
+.header3
+{
+    display: none;
+}
+
+
+  
+header .mainhead
+{
+    display: block;
+    padding: 0; 
+}
+
+header .mainhead h1
+{
+    color: #FFDFDC;
+    text-shadow: 1px -1px 14px wheat;
+    font-size: 56px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 166px;    
+}
+
+header .mainhead img
+{
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 3px 49px -8px rgb(236, 132, 132);
+    border-radius: 50%;
+    margin-left: 84%;
+    margin-top: -69px;
+}
+
+header .mainhead nav
+{
+    display: none;
+}
+
+.header3
+{
+    position: relative !important;
+    display: inline-block !important;
+    z-index: 9999999999 !important;
+    top: 15px !important;
+    color: #eea69f;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-top: -68%;
+  }
+    /***/
+
     
-    header .mainhead nav ul
-    {
-        display: flex;
-        margin-left: 61px;
-    }
-    
-    header .mainhead nav ul li a
-    {
-        margin-left: 28px;
-        font-size: 28px;
-    }
-    
-    /***********************/
+.beauty1 .right .hds h1 {
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    word-spacing: 1px;
+    font-weight: 400;
+    margin-left: -82px;
+    font-size: 31px;
+}
+.beauty1 .right h2 {
+    margin-left: -93px !important;
+}
   .beauty1 
   {
-    display: block;
-    margin-top: 40%;
+    margin-left: 4% !important;
+    display: block !important;
+    margin-top: 17% !important;
+  }
+
+  .beauty1 .right 
+  {
+    flex: 1;
+    margin-left: 37%;
+    margin-top: 17%;
   }
 
 
   /* Left Content Style */
 
-  .left-content 
+  .beauty1 .right .hds h1 
   {
-    margin-top: 75px;
-    width: 284px;
-    height: 284px;
-    margin-left: 19px; 
+      margin-left: -22% !important;
   }
-
- .item-img 
-  {
-    width: 60px;
-    height: 60px;
-    margin-top: 184px;
-    margin-left: 45px;
-  }
-
-  .pinkoverlay1
-   {
-    
-    height: 60px;
-    width: 60px;
-  }
-
-  .img1
-   {
-    top: -281px;
-    left: -133px;
-   }
-
-  .img2 
-  {
-    top: -220px;
-    left: -61px;
-  }
-
-  
-  .img3
-    {
-    top: -141px;
-    left: -8px;
-   }
-
-  .img4 
-  {
-    top: -46px;
-    left: -16px;
-  }
-
-  .img5
-  {
-    top: 44px;
-    left: -60px;
-  }
-
-  /* Right Side Style */
-
- .beauty1 .right
-  {
-    flex: 1;
-    margin-left: 22%;
-  }
-
-  .beauty1 .right .smimg img
-  {
-    display: block;
-    margin-left: 23%;
-    width: 82px;
-  }
-
   .beauty1 .right .hds .rowline1
   {
-    width: 22%;
+    width: 21% !important; 
     height: 2px;
-    margin-left: -20px;
+    margin-left: -60px !important;
     margin-top: 28px;
   }
   .beauty1 .right .hds .rowline2
   {
-    width: 22%;
+    width: 21% !important;
     height: 2px;
-    margin-left: 176px;
-    margin-top: -38px;
+    margin-left: 217px !important;
+    margin-top: -36px !important;
   }
+
+  .beauty1 .right .right-content
+  {
+      margin-left: 10% !important;
+      
+  }
+
   /******************************************/
 
  
@@ -716,23 +853,14 @@ footer .slash
     font-size: 30px;
     height: 0;
     margin-top:0%;
-    margin-left: 10%;
+    margin-left: 33% !important;
     width: 384px;
     padding: 42px 20px 124px 0px;
   }  
   
-  .section2 .tables .basic .much
+  .section2 .tables .basic
   {
-      display: inline;
-      margin-left: -6%;
-  }
-  .section2 .tables .basic .much strong
-  {
-      font-size: 30px;
-  }
-  .section2 .tables .basic .much small#eg
-  {
-      font-size: 24px;
+      margin-top: -5% !important;
   }
 
   /**************************/
@@ -741,29 +869,42 @@ footer .slash
     display: block;
   }
 
-  .section4 .frst img
-  {
-    width: 250px;
-    height: 250px;
-    margin-top: 10%;
-  }
-
- .section4 .captin .frst .con i
-  {
-    margin-left: 15px;
-  }
+  
   /*************************/
-  
-  
   footer .flex
   {
-      display: block;
-      justify-content: space-around;
+      display: inline-block !important;
+      margin-left: -14% !important;
+      
   }
 
+  footer h1
+  {
+      display: block;
+ 
+  }
+  
+ 
   footer .leftinfo span a i , footer .leftinfo span a
   {
-     margin-top: 10%;
+     margin-top: 10% !important;
+     font-size: 45px !important;
+     
+  }
+
+  .section4 .captin .frst .con i
+  {
+    margin-left: 19px;
+  }
+
+  .section4 .captin .frst .con
+   {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer .rightinfo strong
+  {
+      font-size: 45px !important;
   }
 
   footer .slash
@@ -771,20 +912,745 @@ footer .slash
     width: 278px;
     height: 7px;
     margin:38px 0 38px 12%;
+    margin-left: 27% !important;
   }
+  
+
+
+
+
+
+}
+
+/*************/
+
+@media screen and  (max-width:768px)
+{
+    
+header .mainhead
+{
+    display: block;
+    padding: 0; 
+}
+
+header .mainhead h1
+{
+    color: #FFDFDC;
+    text-shadow: 1px -1px 14px wheat;
+    font-size: 56px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 166px !important;    
+}
+
+header .mainhead img
+{
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 3px 49px -8px rgb(236, 132, 132);
+    border-radius: 50%;
+    margin-left: 84%;
+    margin-top: -69px;
+}
+
+header .mainhead nav
+{
+    display: none;
+}
+
+.header3
+{
+    position: relative !important;
+    display: inline-block !important;
+    z-index: 9999999999 !important;
+    top: 15px !important;
+    color: #eea69f;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-top: -68%;
+  }
+    /***/
+  .beauty1 
+  {
+    margin-left: -5%;
+    display: block;
+    margin-top: 17% !important;
+  }
+
+  .beauty1 .right 
+  {
+    flex: 1;
+    margin-left: 37%;
+    margin-top: 17%;
+  }
+
+
+  /* Left Content Style */
+
+  .beauty1 .right .hds h1 
+  {
+      margin-left: -22% !important;
+  }
+  .beauty1 .right .hds .rowline1
+  {
+    width: 21% !important; 
+    height: 2px;
+    margin-left: -32px !important;
+    margin-top: 28px;
+  }
+  .beauty1 .right .hds .rowline2
+  {
+    width: 21% !important;
+    height: 2px;
+    margin-left: 184px !important;
+    margin-top: -36px !important;
+  }
+
+  .beauty1 .right .right-content
+  {
+      margin-left: 10% !important;
+      
+  }
+
+  /******************************************/
+
+ 
+  .section2 .tabless , .section2 .Sessionstable .tabless
+  {
+    margin-top: 11%;
+    display: block;
+    width: 68%;
+    margin-left: 17%;
+    
+  }
+
+  .section2 .tables .fitnesstable p , .section2 .tables .Sessionstable p
+  {
+    font-size: 30px;
+    height: 0;
+    margin-top:0%;
+    margin-left: 24% !important;
+    width: 384px;
+    padding: 42px 20px 124px 0px;
+  }  
+  
+  .section2 .tables .basic
+  {
+      margin-top: -5% !important;
+  }
+
+  /**************************/
+  .section4 .frst
+  {
+    display: block;
+  }
+
+  
+  /*************************/
+  footer .flex
+  {
+      display: inline-block !important;
+      margin-left: -14% !important;
+      
+  }
+  
+  footer .leftinfo span a i , footer .leftinfo span a
+  {
+     margin-top: 10% !important;
+     font-size: 45px !important;
+     
+  }
+
+  .section4 .captin .frst .con i
+  {
+    margin-left: 19px;
+  }
+
+  .section4 .captin .frst .con
+   {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer .rightinfo strong
+  {
+      font-size: 45px !important;
+  }
+
+  footer .slash
+  {
+    width: 278px;
+    height: 7px;
+    margin:38px 0 38px 12%;
+    margin-left: 27% !important;
+  }
+  
+}
+
+@media screen and (max-width:660px)
+{
+   
+  .beauty1 
+  {
+    margin-left: -5%;
+    display: block;
+    margin-top: 17% !important;
+  }
+
+  .left-content
+  {
+    width: 350px !important;
+    height: 350px !important;
+    
+  }
+
+  .item-img {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-size: cover;
+    margin-top: 184px;
+    margin-left: 45px;
+}
+
+.img5 {
+    position: absolute;
+    top: 167px;
+    left: -112px;
+    background-image: url(../imgs/sess2.jfif);
+}
+
+  .beauty1 .right 
+  {
+    flex: 1;
+    margin-left: 34%;
+    margin-top: 25%;
+  }
+
+
+  /* Left Content Style */
+
+  .beauty1 .right .hds h1 
+  {
+      margin-left: -22% !important;
+  }
+  .beauty1 .right .hds .rowline1
+  {
+    width: 21% !important; 
+    height: 2px;
+    margin-left: -32px !important;
+    margin-top: 28px;
+  }
+  .beauty1 .right .hds .rowline2
+  {
+    width: 21% !important;
+    height: 2px;
+    margin-left: 184px !important;
+    margin-top: -36px !important;
+  }
+
+  .beauty1 .right .right-content
+  {
+      margin-left: 10% !important;
+      
+  }
+
+  /******************************************/
+
+ 
+  .section2 .tabless , .section2 .Sessionstable .tabless
+  {
+    margin-top: 11%;
+    display: block;
+    width: 68%;
+    margin-left: 17%;
+    
+  }
+
+  .section2 .tables .fitnesstable p , .section2 .tables .Sessionstable p
+  {
+    font-size: 30px;
+    height: 0;
+    margin-top:0%;
+    margin-left: 21% !important;
+    width: 384px;
+    padding: 42px 20px 124px 0px;
+  }  
+  
+  .section2 .tables .basic
+  {
+      margin-top: -5% !important;
+  }
+
+  /**************************/
+  .section4 .frst
+  {
+    display: block;
+  }
+
+  
+  .section4 .captin .frst .con i
+  {
+    margin-left: 19px;
+  }
+
+  .section4 .captin .frst .con
+   {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .section4 .frst img
+  {
+    width: 300px;
+    height: 300px;
+  }
+  
+  /*************************/
+  footer .flex
+  {
+      display: inline-block !important;
+      margin-left: -14% !important;
+      
+  }
+  
+  footer .leftinfo span a i , footer .leftinfo span a
+  {
+     margin-top: 10% !important;
+     font-size: 45px !important;
+     
+  }
+
+  footer .rightinfo strong
+  {
+      font-size: 45px !important;
+  }
+
+  footer .slash
+  {
+    width: 278px;
+    height: 7px;
+    margin:38px 0 38px 12%;
+    margin-left: 27% !important;
+  }
+
+
+}
+
+@media screen and  (max-width:560px)
+{
+
+header .mainhead h1
+{
+    color: #FFDFDC;
+    text-shadow: 1px -1px 14px wheat;
+    font-size: 45px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 161px !important;    
+}
+
+header .mainhead img
+{
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 3px 49px -8px rgb(236, 132, 132);
+    border-radius: 50%;
+    margin-left: 84%;
+    margin-top: -56px;
+}
+
+.carousel-inner .carousel-item img {
+    height: 60%;
+    width: 100%;
+}
+
+.beauty1 
+{
+  margin-left: -5%;
+  display: block;
+  margin-top: 33% !important;
+}
+
+.left-content
+{
+  width: 300px !important;
+  height: 300px !important;
+  
+}
+
+.item-img {
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  background-size: cover;
+  margin-top: 138px;
+  margin-left: 2px;
+  
+}
+
+.img5 {
+  position: absolute;
+  top: 167px;
+  left: -112px;
+  background-image: url(../imgs/sess2.jfif);
+}
+
+.beauty1 .right 
+{
+  flex: 1;
+  margin-left: 34%;
+  margin-top: 30%;
+}
+
+
+/* Left Content Style */
+
+.beauty1 .right h2 
+{
+    margin-left: -37px;
+}
+.beauty1 .right .hds h1 
+{
+    margin-left: -24% !important;
+    font-size: 32px;
+}
+
+.beauty1 .right-content .list1
+ {
+    margin-left: -103px;
+}
+.beauty1 .right .hds .rowline1
+{
+  width: 21% !important; 
+  height: 2px;
+  margin-left: -15px !important;
+  margin-top: 28px;
+}
+.beauty1 .right .hds .rowline2
+{
+  width: 21% !important;
+  height: 2px;
+  margin-left: 150px !important;
+  margin-top: -36px !important;
+}
+
+.beauty1 .right .right-content
+{
+    margin-left: 10% !important;
+    
+}   
+
+
+.section2 .tabless , .section2 .Sessionstable .tabless
+{
+  margin-top: 11%;
+  display: block;
+  width: 68%;
+  margin-left: 17%;
+  
+}
+
+.section2 .tables .fitnesstable p , .section2 .tables .Sessionstable p
+{
+  font-size: 30px;
+  height: 0;
+  margin-top:0%;
+  margin-left: 11% !important;
+  width: 384px;
+  padding: 42px 20px 124px 0px;
+}  
+
+.section2 .tables .basic
+{
+    margin-top: -5% !important;
+}
+
+footer .flex
+{
+    display: inline-block !important;
+    margin-left: -14% !important;
+    
+}
+
+footer .leftinfo span a i , footer .leftinfo span a
+{
+   margin-top: 10% !important;
+   font-size:  33px !important;
+   
+}
+
+footer .rightinfo strong
+{
+    font-size: 45px !important;
+}
+
+footer .slash
+{
+  width: 278px;
+  height: 7px;
+  margin:38px 0 38px 12%;
+  margin-left: 27% !important;
+}
+
+footer .rightinfo h2 
+{
+    font-size: 50px;
+}
+
+
+}
+
+@media screen and  (max-width:476px)
+{
+    
+header .mainhead h1
+{
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 131px;   
+}
+
+header .mainhead img
+{
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 3px 49px -8px rgb(236, 132, 132);
+    border-radius: 50%;
+    margin-left: 84%;
+    margin-top: -44px;
+}
+
+.header3
+{
+    top: 28px !important;
+}
+
+.carousel-inner .carousel-item img {
+    height: 60%;
+    width: 100%;
+}
+
+.beauty1 
+{
+  margin-left: -5%;
+  display: block;
+  margin-top: 45% !important;
+}
+
+.left-content
+{
+    width: 200px !important;
+    height: 200px !important;
+  
+}
+
+.item-img {
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  background-size: cover;
+  margin-top: 138px;
+  margin-left: 2px;
+  
+}
+
+
+.img1 {
+    position: absolute;
+    top: -246px;
+    left: -100px;
+    background-image: url(../imgs/b2.webp);
+}
+
+.img2 {
+    position: absolute;
+    top: -185px;
+    left: -4px;
+    background-image: url(../imgs/uuu.jpg);
+}
+
+.img3 {
+    position: absolute;
+    top: -75px;
+    left: 31px;
+    background-image: url(../imgs/unnamed.jpg);
+}
+
+
+.img4 {
+    position: absolute;
+    top: 26px;
+    left: -4px;
+    background-image: url(../imgs/msag2.jpg);
+}
+
+.img5 {
+    position: absolute;
+    top: 69px;
+    left: -122px;
+
+    background-image: url(../imgs/sess2.jfif);
 }
 
 
 
+.beauty1 .right 
+{
+  flex: 1;
+  margin-left: 27%;
+  margin-top: 34%;
+}
+
+
+/* Left Content Style */
+
+.beauty1 .right h2 
+{
+    margin-left: -37px;
+}
+.beauty1 .right .hds h1 
+{
+    margin-left: -19% !important;
+    font-size: 28px;
+}
+
+.beauty1 .right-content .list1
+ {
+    margin-left: -70px;
+}
+.beauty1 .right .hds .rowline1
+{
+  width: 21% !important; 
+  height: 2px;
+  margin-left: -15px !important;
+  margin-top: 28px;
+}
+.beauty1 .right .hds .rowline2
+{
+  width: 21% !important;
+  height: 2px;
+  margin-left: 150px !important;
+  margin-top: -36px !important;
+}
+
+.beauty1 .right .right-content
+{
+    margin-left: 10% !important;
+    
+}   
 
 
 
 
+.section2 .tabless , .section2 .Sessionstable .tabless
+{
+  margin-top: 11%;
+  display: block;
+  width: 68%;
+  margin-left: 17%;
+  
+}
 
+.section2 .fitnesstable h1, .section2 .Sessionstable h1 {
+   
+    font-size: 59px;
+}
 
+.section2 .tables .basic img, .section2 .Sessionstable img {
+    width: 123px;
+    height: 123px;
+}
 
+.section2 .tables .fitnesstable p , .section2 .tables .Sessionstable p
+{
+  font-size: 30px;
+  height: 0;
+  margin-top:0%;
+  margin-left: 0!important;
+  width: 384px;
+  padding: 42px 20px 124px 0px;
+}  
 
+.section2 .tables .basic
+{
+    margin-top: 3% !important;
+}
 
+.section4 .frst img {
+    width: 150px;
+    height: 150px;
+}
 
+footer .flex
+{
+    display: inline-block !important;
+    margin-left: -14% !important;
+    
+}
 
+footer .leftinfo span a i , footer .leftinfo span a
+{
+   margin-top: 10% !important;
+   font-size:  29px !important;
+   margin-left: 12px;
+   
+}
+
+footer .rightinfo strong
+{
+    font-size: 45px !important;
+}
+
+footer .slash
+{
+  width: 278px;
+  height: 7px;
+  margin:38px 0 38px 12%;
+  margin-left: 10% !important;
+}
+
+footer .rightinfo h2 
+{
+    font-size: 50px;
+}
+
+footer h1 
+{
+    font-size: 67px;
+}
+
+}
 
